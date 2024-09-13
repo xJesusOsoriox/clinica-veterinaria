@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "Mayorga";
-$password = "Ola123x.";
-$database = "veterinaria";
+$username = "u183344616_mayorga";
+$password = "FenixD2024.";
+$database = "u183344616_veterinaria";
 /*$password = "";*/
 
 //Conexios php orientada a objetos
