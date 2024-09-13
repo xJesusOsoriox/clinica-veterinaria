@@ -1,0 +1,223 @@
+
+.center {
+  margin-top: 5px;
+}
+
+
+.formx {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+.formx2 {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+.formx3 {
+  width: 45%;
+  height: 85px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.formx4 {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+.formx41 {
+  width: 100%;
+  padding: 8px;
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+.tabla4{
+  text-align: center;
+  font-size: 15px;
+
+}
+
+
+
+.tabla4 thead{
+  color: #d8c787;
+
+
+}
+.tabla4 tbody tr td{
+ padding-top: 10px;
+ padding-bottom: 10px;
+ font-size: 14px;
+ padding-right: 10px;
+ border-top: 2px solid grey;
+
+ 
+}
+
+
+
+#input-line-container2 {
+  width: 110%;
+  font-size: 17px;
+}
+
+#input-line-container2 label {
+  color: #d8c787;
+  font-weight: 600;
+}
+
+
+.tabla{
+  text-align: left;
+  border: #757575;
+}
+
+.tabla thead{
+  color: #d8c787;
+}
+.tabla tbody tr td{
+ height: 40px;
+ font-size: 14px;
+}
+
+.buscadorx {
+  width: 30%;
+  height: 35px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border:2px solid black;
+ 
+}
+
+.input-line {
+  width: 90%;
+  height: 30px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #757575;
+  outline: none;
+  margin-bottom: 1rem;
+  color: #757575;
+}
+
+.input-line:focus {
+  width: 90%;
+  height: 30px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #f2e1ad;
+  outline: none;
+  margin-bottom: 1rem;
+  color: #757575;
+}
+
+.column {
+  width: 50%;
+  /* Adjust as needed */
+}
+
+#input-line-container {
+  height: 70px;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+#input-line-container label {
+  color: #d8c787;
+  font-weight: 600;
+}
+
+.form-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button-login1 {
+  text-align: center;
+  width: 110px;
+  border-radius: 55px;
+  background: #9574e7;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  margin: auto;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.button-login1:hover {
+  box-shadow: 0px 0px 8px #fffb00a4;
+}
+
+h2{
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: -10px;
+  padding-bottom: 5px;
+  color: #757575;
+  border-bottom: 1.5px solid #757575;
+}
+
+h2 span{
+  margin-right: 10px;
+}
+
+
+.x{
+font-size: 16px;
+color: gray;}
+
+.asistencia-verde {
+  color: green;
+}
+
+.asistencia-rojo {
+  color: red;
+}
+
+.asistencia-gris {
+  color: gray;
+}

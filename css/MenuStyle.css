@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px ;
+}
+
+.container .card{
+    width: 350px;
+    height: 330px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+}
+
+
+.container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+.container .card img{
+    width: 350px;
+    height: 220px;
+}
+
+.container .card h4{
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+
+}
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.container .card a:hover {
+    color: #ffbc0e;
+    text-decoration: none;
+}
+
+.header{
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 5%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.nav-links {
+    color: white;
+}
+
+.nav-links .label {
+    color: white;
+    font-size: 16px;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
